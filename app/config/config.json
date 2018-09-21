@@ -1,0 +1,22 @@
+{
+    "app":{
+        
+        "sitename":"MVC",
+
+        "urlroute":"http://localhost/mvc"
+    
+    },
+
+    "sql":{
+
+        "host":"localhost",
+
+        "database":"employees",
+
+        "user":"root",
+
+        "password":""
+
+    }
+
+}
