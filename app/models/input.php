@@ -6,7 +6,7 @@ final class input extends tracker{
 
     public function __construct($request){
 
-        $this->begin('localhost','root','','prueba3');
+        $this->begin('localhost','root','','test2');
     
         $tracker=$this->read($request);
         $device=$tracker->device;

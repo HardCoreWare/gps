@@ -60,7 +60,7 @@ class tracker extends crud{
         
         );
     
-        $this->insert_line("Gps",$line);
+        $this->insert_line("Register",$line);
 
     }
 
@@ -69,7 +69,7 @@ class tracker extends crud{
         $code = $device->code;
         $target = "Code_Device = '".$code."'";
         $order = "Time_Register";
-        $data=$this->select('Gps',['Lat_Register','Lng_Register'],$target,$order,1);
+        $data=$this->select('Register',['Lat_Register','Lng_Register'],$target,$order,1);
         $json = json_encode($data);
 
         return $json;

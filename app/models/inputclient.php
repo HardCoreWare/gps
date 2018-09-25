@@ -14,7 +14,7 @@ $request=
 
             "temporal":{"time":"12054599","date":"180724"},
 
-            "location":{"lat":19.0005,"lng":-99.0002,"alt":2045.25},
+            "location":{"lat":19.008,"lng":-99.0000001,"alt":2045.25},
             
             "move":{"speed":10.35,"course":355.01}
 
