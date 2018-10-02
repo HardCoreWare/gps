@@ -1,9 +1,9 @@
 {
     "app":{
         
-        "sitename":"MVC",
+        "sitename":"GPS",
 
-        "urlroute":"http://localhost/mvc"
+        "urlroute":"http://localhost/gps"
     
     },
 
@@ -11,7 +11,7 @@
 
         "host":"localhost",
 
-        "database":"employees",
+        "database":"test2",
 
         "user":"root",
 
