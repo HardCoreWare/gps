@@ -10,11 +10,9 @@ class router {
 
     public function __construct(){
         
-        $this->router->readUrl();
-
-        $this->router->loadController();
-
-        $this->router->loadMethod();
+        $this->readUrl();
+        $this->loadController();
+        $this->loadMethod();
 
     }
 
