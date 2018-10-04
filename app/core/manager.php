@@ -6,6 +6,6 @@ require_once('../app/config/config.php');
 require_once('core.php');
 require_once('router.php');
 
-$core = new core();
+$router = new router();
 
 ?>

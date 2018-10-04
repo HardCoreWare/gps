@@ -7,6 +7,18 @@ class router {
     private $method = 'tester';
     private $parameters = ['hola'];
 
+
+    public function __construct(){
+        
+        $this->router->readUrl();
+
+        $this->router->loadController();
+
+        $this->router->loadMethod();
+
+    }
+
+
     // read and cuts the url in 3
     public function readUrl(){
 
